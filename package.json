@@ -1,0 +1,12 @@
+{
+  "name": "@local/onebot-panel",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "个人号接入（OneBot v11 / NapCat）：给 AI记忆 的 QQ 接入提供独立的个人号通道入口；只往 AI记忆 的接入清单登记一条软件，设置面板由 AI记忆 承载。",
+  "author": { "name": "Root-7-KHX" },
+  "license": "MIT",
+  "exports": { ".": "./index.js", "./icon": "./icon.svg" },
+  "files": ["index.js", "cordis.patch.yml", "icon.svg", "README.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
